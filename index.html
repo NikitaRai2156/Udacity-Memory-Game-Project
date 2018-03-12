@@ -10,15 +10,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
-
 <body>
     <div class="container" id="gameArea">
+        
+        <!-- Header -->
         <header class="row">
             <h1 class="col-md-12">Concentration Game</h1>
         </header>
         <br>
+        
+        <!-- Score Panel -->
         <div class="score-panel row">
             <div class="stars col-md-11 text-center">
+                <!-- Star Rating -->
                 <ul id="stars"> 
                     <li id="firstStar"></li>
                     <li id="secondStar"></li>
@@ -26,16 +30,25 @@
                 </ul>
             </div>       
         </div>   
+        
         <div class="score-panel row">
+            
+            <!-- Number of moves -->
             <span class="col-md-4 text-left" id="moves"></span>
+            
+            <!-- Reset Button -->
             <div class="restart col-md-4 text-center">
                 <i class="fa fa-repeat resetButton"></i> 
             </div>
             <span class="timer col-md-4 text-right" id="timer">00:00:00</span>
         </div>
+        
+        <!-- Deck of Cards -->
         <ul class="deck row" id="deck">
         </ul>
     </div>
+    
+    <!-- Result Modal -->
     <div class="container" id="gameResult">
         <div id="popup-window" class="modal row">
             <div class="modal-content col-md-12">
