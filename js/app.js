@@ -172,7 +172,6 @@ function checkForWin() {
 
 // Function to add star rating
 function starRating() {
-	var firstStar = $('#firstStar');
 	var secondStar = $('#secondStar');
 	var thirdStar = $('#thirdStar');
 	if(moves >= 20) {
@@ -186,7 +185,7 @@ function starRating() {
 
 // Function to display star rating in the modal
 function displayRatingInModal() {
-	rating = $('#rating');
+	var rating = $('#rating');
 	if(moves >= 20) {
 		rating.html('<i class="fa fa-star" aria-hidden="true">');
 	}
