@@ -81,7 +81,7 @@ var openCardList = [];
 
 // Function called when a card is clicked
 function flipCard() {
-	if (gameOn == false) {
+	if (gameOn === false) {
 		gameOn = true;
 		timer.start();
 	}
@@ -163,7 +163,7 @@ function checkForWin() {
 	if(matchesFound == 8) {
     	timer.pause();
     	displayRatingInModal();
-    	var gameTime = timer.getTimeValues().toString()
+    	var gameTime = timer.getTimeValues().toString();
     	$('#gameTime').html(gameTime);
     	showResultModal();
 	}
@@ -191,7 +191,7 @@ function displayRatingInModal() {
 		rating.html('<i class="fa fa-star" aria-hidden="true">');
 	}
 	else if (moves >= 12) {
-		rating.html('<i class="fa fa-star" aria-hidden="true"></i></i><i class="fa fa-star" aria-hidden="true"></i>')
+		rating.html('<i class="fa fa-star" aria-hidden="true"></i></i><i class="fa fa-star" aria-hidden="true"></i>');
 	}
 	else {
 		rating.html('<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>');
