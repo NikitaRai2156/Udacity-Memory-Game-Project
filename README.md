@@ -17,6 +17,7 @@ The game board consists of sixteen cards arranged randomly in a grid. The deck i
 * Google Fonts
 * Font Awesome Icons
 * Animate.css
+* EasyTimer.js
 
 The shuffle() function was provided in the starter code given by Udacity (from StackOverflow).
 
