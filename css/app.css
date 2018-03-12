@@ -118,10 +118,6 @@ p.success {
     color: #73AF55;
 }
 
-/*#gameResult {
-    display: none;
-}*/
-
 .text-center {
     text-align: center;
 }
@@ -202,91 +198,3 @@ modal .resetButton:hover {
 h3 {
     margin: 0 0 20px;
 }
-
-
-
-
-/*@media screen and (max-width: 450px) {
-    h1 {
-        margin: 30px 5px 5px;
-        font-size: 1.8em;
-    }
-
-    h2 {
-        margin: 0 10px 10px;
-        font-size: 1em;
-    }
-
-    .score-panel {
-        width: 320px;
-        padding: 5px;
-    }
-
-    .stars .fa {
-        font-size: 1.3em;
-    }
-    .moves,
-    .timer {
-        width: 80px;
-        font-size: 1em;
-    }
-
-    .score-panel .resetButton {
-        width: 90px;
-        border: 1px solid #fff;
-    }
-
-    .deck {
-        width: 320px;
-        min-height: 320px;
-        padding: 10px;
-    }
-    .deck .card-container {
-        width: 65px;
-        height: 65px;
-    }
-    .modal-content {
-        width: 80%;
-    }
-}
-
-@media screen and (min-width: 451px) and (max-width: 650px) {
-    h1 {
-        margin: 30px 5px 5px;
-    }
-
-    h2 {
-        margin: 0 10px 10px;
-    }
-
-    .score-panel {
-        width: 440px;
-        padding: 5px;
-    }
-
-    .score-panel .stars {
-        margin: 20px 0 30px;
-    }
-
-    .stars .fa {
-        font-size: 1.3em;
-    }
-    .moves,
-    .timer {
-        width: 100px;
-        font-size: 1em;
-    }
-
-    .score-panel .resetButton {
-        width: 100px;
-    }
-    .deck {
-        width: 440px;
-        min-height: 440px;
-        padding: 10px;
-    }
-    .deck .card-container {
-        width: 90px;
-        height: 90px;
-    }
-}*/
