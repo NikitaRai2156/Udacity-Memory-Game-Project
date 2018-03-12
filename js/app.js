@@ -1,3 +1,4 @@
+/* jshint esversion:6 */
 /*
  * Create a list that holds all of your cards
  */
