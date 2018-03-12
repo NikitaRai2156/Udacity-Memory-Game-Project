@@ -135,6 +135,9 @@ p.success {
     float: right;
 }
 
+/*
+ * Styles for the Modal
+ */
 .modal {
     display: none;
     z-index: 1;
