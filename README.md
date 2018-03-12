@@ -21,7 +21,7 @@ The game board consists of sixteen cards arranged randomly in a grid. The deck i
 The shuffle() function was provided in the starter code given by Udacity (from StackOverflow).
 
 ## How to run:
-* Download or Clone this Repository.
-* Open ```index.html``` in your browser.
+1. Download or Clone this Repository.
+2. Open ```index.html``` in your browser.
 
 
