@@ -1,4 +1,8 @@
+// Informing JSHint that jQuery is used and Timer is a global variable used in easyTimer.js
 /* jshint esversion:6 */
+/* jshint jquery: true */
+/* global Timer */
+
 /*
  * Create a list that holds all of your cards
  */
